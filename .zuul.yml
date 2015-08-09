@@ -1,0 +1,22 @@
+ui: tape
+concurrency: 1
+browsers:
+  - name: ipad
+    platform: ["Mac 10.10", "Mac 10.6", "Mac 10.8", "Mac 10.9"]
+    version: oldest..latest
+    
+  - name: safari
+    platform: ["Mac 10.10", "Mac 10.6", "Mac 10.8", "Mac 10.9", "Windows 2008"]
+    version: oldest..latest
+    
+  - name: ie
+    platform: ["Windows 2003", "Windows 2008", "Windows 2012", "Windows 2012 R2"]
+    version: oldest..latest
+    
+  - name: opera
+    platform: ["Linux", "Windows 2003", "Windows 2008"]
+    version: oldest..latest
+    
+  - name: android
+    platform: ["Linux"]
+    version: oldest..latest

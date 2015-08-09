@@ -1,6 +1,6 @@
 module.exports = isUndefined;
 
 
-function isUndefined(obj) {
-    return obj === void 0;
+function isUndefined(value) {
+    return value === void(0);
 }
